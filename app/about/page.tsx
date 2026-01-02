@@ -23,7 +23,7 @@
         machines we install and the service we provide, our focus is on
         delivering effortless, refined convenience.
       </p>
-   
+   </section>
        
        {/* Soft CTA */}
       <section className="mt-32 mb-24 text-center max-w-3xl mx-auto">
