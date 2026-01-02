@@ -1,4 +1,5 @@
-export default function About() {
+
+       export default function About() {
   return (
     <main className="px-8 py-24 max-w-5xl mx-auto">
       <h1 className="text-4xl md:text-5xl font-light tracking-wide mb-10">
@@ -22,8 +23,8 @@ export default function About() {
         machines we install and the service we provide, our focus is on
         delivering effortless, refined convenience.
       </p>
-
-      </div>
+   
+       
        {/* Soft CTA */}
       <section className="mt-32 mb-24 text-center max-w-3xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-6">
