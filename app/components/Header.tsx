@@ -6,7 +6,8 @@ export default function Header() {
  <img
   src="/translogo-20260107.png"
   alt="Signature Vending"
-  className="h-[45rem] md:h-[50rem] w-auto mb-12"
+className="h-[14rem] md:h-[16rem] w-auto mb-12"
+
 />
 
 
