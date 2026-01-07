@@ -7,7 +7,7 @@ export default function Home() {
   <img
     src="/translogo-20260107.png"
     alt="SV monogram – Signature Vending"
-    className="h-[14rem] md:h-[17rem] w-auto mx-auto opacity-95"
+    className="h-[10rem] md:h-[13rem] w-auto mx-auto opacity-95"
   />
 
   <div className="h-px w-32 bg-[#6b4a2d] mx-auto mt-10 mb-10"></div>

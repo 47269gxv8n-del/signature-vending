@@ -6,7 +6,7 @@ export default function Header() {
  <img
   src="/SVtrans.png"
   alt="Signature Vending"
-className="h-[14rem] md:h-[16rem] w-auto mb-12"
+className="h-[20rem] md:h-[22rem] w-auto mb-12"
 
 />
 
