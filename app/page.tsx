@@ -9,7 +9,7 @@ export default function Home() {
   <img
   src="/Lobbypic.png"
   alt="Signature Vending"
-className="h-[20rem] md:h-[10rem] w-auto mb-12"
+className="h-[20rem] md:h-auto w-[10rem] mb-12"
 
 />
 
