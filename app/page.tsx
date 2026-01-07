@@ -3,13 +3,13 @@ export default function Home() {
     <main className="px-8 py-10 max-w-7xl mx-auto">
 
 {/* HERO */}
-<section className="h-[20rem] md:h-[10rem] w-auto mb-12 mx-auto"
+<section className="flex flex-col items-center pt-10 pb-14 border-b border-[#6b4a2d]/40">
 
 
   <img
   src="/Lobbypic.png"
   alt="Signature Vending"
-className="h-[20rem] md:h-auto w-[10rem] mb-12"
+className="h-[20rem] md:h-auto w-auto mb-12"
 
 />
 
