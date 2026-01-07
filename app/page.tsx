@@ -4,10 +4,12 @@ export default function Home() {
 
 
       {/* HERO */}
-     <section className="text-center mb-28 pt-12">
-  <h1 className="text-5xl md:text-6xl font-light tracking-wider mb-8 text-[#f5e6c8]">
-    Premium Convenience
-  </h1>
+     <section>
+      <img
+  src="/SVtrans.png"
+  
+  className="h-10 md:h-12 w-auto opacity-90"
+/>
 
   <div className="h-px w-24 bg-[#6b4a2d] mx-auto mb-8"></div>
 
