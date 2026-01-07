@@ -2,23 +2,37 @@ export default function Home() {
   return (
     <main className="px-8 py-20 max-w-7xl mx-auto">
 
-
-     {/* HERO */}
-<section className="text-center mt-10 mb-16">
+{/* HERO */}
+<section className="text-center mt-16 mb-24">
   <img
     src="/SVtrans.png"
     alt="SV monogram – Signature Vending"
-    className="h-20 md:h-24 w-auto mx-auto opacity-90"
+    className="h-[28rem] md:h-[34rem] w-auto mx-auto opacity-95"
   />
 
-  <div className="h-px w-24 bg-[#6b4a2d] mx-auto mt-8 mb-8"></div>
+  <div className="h-px w-32 bg-[#6b4a2d] mx-auto mt-10 mb-10"></div>
 
   <p className="max-w-2xl mx-auto text-lg md:text-xl text-[#e6cfa3] leading-relaxed">
     High-end vending solutions designed for modern offices,
     hospitality, and premium environments.
   </p>
 </section>
+{/* FEATURE CARDS */} 
+<section className="grid gap-12 md:grid-cols-3">
+   <div className="relative rounded-2xl p-10 border border-[#6b4a2d] bg-gradient-to-b from-[#3a1f14] to-[#2a140c] hover:translate-y-[-4px] transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.35)]">
+     <h3 className="text-xl mb-4 tracking-wide text-[#f5e6c8]"> Curated Products </h3> <p className="text-[#e6cfa3] leading-relaxed"> Thoughtfully selected premium snacks and beverages designed to complement refined spaces. 
+      </p> 
+      </div> 
+      <div className="relative rounded-2xl p-10 border border-[#6b4a2d] bg-gradient-to-b from-[#3a1f14] to-[#2a140c] hover:translate-y-[-4px] transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.35)]"> 
+        <h3 className="text-xl mb-4 tracking-wide text-[#f5e6c8]"> Elegant Machines </h3>
+         <p className="text-[#e6cfa3] leading-relaxed"> Design-led vending machines that integrate seamlessly into luxury interiors. </p>
+          </div> 
+          <div className="relative rounded-2xl p-10 border border-[#6b4a2d] bg-gradient-to-b from-[#3a1f14] to-[#2a140c] hover:translate-y-[-4px] transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.35)]"> 
+            <h3 className="text-xl mb-4 tracking-wide text-[#f5e6c8]"> Seamless Service </h3>
+             <p className="text-[#e6cfa3] leading-relaxed"> Fully managed solutions delivering effortless convenience and reliability. </p>
+              </div>
 
+</section>
       {/* Soft CTA */}
       <section className="mt-32 mb-24 text-center max-w-3xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-6">
