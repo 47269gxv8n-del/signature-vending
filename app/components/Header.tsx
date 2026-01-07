@@ -5,7 +5,7 @@ export default function Header() {
 
       {/* Logo */}
       <img
-        src="/signature-vendinglogo.png"
+        src="/translogo.png"
         alt="Signature Vending"
         className="h-36 md:h-40 w-auto mb-12"
       />
