@@ -5,7 +5,7 @@ export default function Home() {
 {/* HERO */}
 <section className="text-center mt-16 mb-24">
   <img
-    src="/SVtrans.png"
+    src="/translogo-20260107.png"
     alt="SV monogram – Signature Vending"
     className="h-[14rem] md:h-[17rem] w-auto mx-auto opacity-95"
   />

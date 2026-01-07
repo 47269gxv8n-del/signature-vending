@@ -4,7 +4,7 @@ export default function Header() {
     <header className="flex flex-col items-center pt-10 pb-14 border-b border-[#6b4a2d]/40">
 
  <img
-  src="/translogo-20260107.png"
+  src="/SVtrans.png"
   alt="Signature Vending"
 className="h-[14rem] md:h-[16rem] w-auto mb-12"
 
