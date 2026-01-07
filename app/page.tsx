@@ -3,12 +3,12 @@ export default function Home() {
     <main className="px-8 py-10 max-w-7xl mx-auto">
 
 {/* HERO */}
-<section className="text-center mt-16 mb-24">
+<section className="mt-32 mb-24 text-center max-w-3xl mx-auto">
 
   <img
   src="/Lobbypic.png"
   alt="Signature Vending"
-className="h-[10rem] md:h-[5rem] w-auto mb-12"
+className="h-[20rem] md:h-[10rem] w-auto mb-12"
 
 />
 
