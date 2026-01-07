@@ -8,7 +8,7 @@ export default function Header() {
   alt="Signature Vending"
   className="h-36 md:h-40 w-auto mb-12"
 />
-      />
+      
 
       {/* Navigation */}
       <nav className="flex gap-12 text-base uppercase tracking-[0.35em] text-[#e6cfa3]">
