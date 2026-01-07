@@ -4,11 +4,7 @@ export default function Home() {
 
 {/* HERO */}
 <section className="text-center mt-16 mb-24">
-  <img
-    src="/translogo-20260107.png"
-    alt="SV monogram – Signature Vending"
-    className="h-[10rem] md:h-[13rem] w-auto mx-auto opacity-95"
-  />
+ 
 
   <div className="h-px w-32 bg-[#6b4a2d] mx-auto mt-10 mb-10"></div>
 
@@ -34,11 +30,13 @@ export default function Home() {
 
 </section>
       {/* Soft CTA */}
-      <section className="mt-32 mb-24 text-center max-w-3xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-6">
-          Designed for Premium Spaces
-        </h2>
-
+      <h2><img
+    src="/translogo-20260107.png"
+    alt="SV monogram – Signature Vending"
+    className="h-[10rem] md:h-[13rem] w-auto mx-auto opacity-95"
+  />
+  </h2>
+<section>
         <p className="text-lg text-[#e6cfa3] mb-10">
           Discover how Signature Vending can elevate your workplace,
           hospitality venue, or private environment.
