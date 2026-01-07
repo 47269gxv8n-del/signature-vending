@@ -4,6 +4,14 @@ export default function Home() {
 
 {/* HERO */}
 <section className="text-center mt-16 mb-24">
+
+  <img
+  src="/Lobbypic.png"
+  alt="Signature Vending"
+className="h-[20rem] md:h-[30rem] w-auto mb-12"
+
+/>
+
  
 
   <div className="h-px w-32 bg-[#6b4a2d] mx-auto mt-10 mb-10"></div>
