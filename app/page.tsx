@@ -30,26 +30,28 @@ export default function Home() {
 
 </section>
       {/* Soft CTA */}
-      <h2><img
+     <section className="mt-32 mb-24 text-center max-w-3xl mx-auto">
+
+  <img
     src="/translogo-20260107.png"
     alt="SV monogram – Signature Vending"
-    className="h-[10rem] md:h-[13rem] w-auto mx-auto opacity-95"
+    className="h-[5rem] md:h-[7rem] w-auto mx-auto opacity-95 mb-10"
   />
-  </h2>
-<section>
-        <p className="text-lg text-[#e6cfa3] mb-10">
-          Discover how Signature Vending can elevate your workplace,
-          hospitality venue, or private environment.
-        </p>
 
-        <a
-          href="/contact"
-          className="inline-block px-10 py-4 border border-[#d6b97a] text-sm uppercase tracking-[0.35em] text-[#f5e6c8]
-                     hover:bg-[#d6b97a] hover:text-[#2a140c] transition-all duration-300"
-        >
-          Enquire
-        </a>
-      </section>
+  <p className="text-lg text-[#e6cfa3] mb-10">
+    Discover how Signature Vending can elevate your workplace,
+    hospitality venue, or private environment.
+  </p>
+
+  <a
+    href="/contact"
+    className="inline-block px-10 py-4 border border-[#d6b97a] text-sm uppercase tracking-[0.35em] text-[#f5e6c8]
+               hover:bg-[#d6b97a] hover:text-[#2a140c] transition-all duration-300"
+  >
+    Enquire
+  </a>
+
+</section>
 
       {/* Footer Accent */}
       <section className="mt-32 pt-12 border-t border-[#6b4a2d]/40 text-center">
