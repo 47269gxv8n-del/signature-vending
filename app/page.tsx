@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="px-8 py-20 max-w-7xl mx-auto">
+    <main className="px-8 py-10 max-w-7xl mx-auto">
 
 {/* HERO */}
 <section className="text-center mt-16 mb-24">
