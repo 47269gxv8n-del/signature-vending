@@ -3,11 +3,11 @@ export default function Header() {
   return (
     <header className="flex flex-col items-center pt-10 pb-14 border-b border-[#6b4a2d]/40">
 
-      {/* Logo */}
       <img
-        src="/translogo.png"
-        alt="Signature Vending"
-        className="h-36 md:h-40 w-auto mb-12"
+  src="/translogoV2.png"
+  alt="Signature Vending"
+  className="h-36 md:h-40 w-auto mb-12"
+/>
       />
 
       {/* Navigation */}
