@@ -102,6 +102,14 @@ export default function InvestorVision() {
           ← Back to Investor Overview
         </a>
       </section>
+      <a
+  href="/investors/rollout"
+  className="inline-block px-10 py-4 border border-[#6b4a2d] text-sm uppercase tracking-[0.35em] text-[#d6b97a]
+             hover:bg-[#6b4a2d] hover:text-[#f5e6c8] transition-all duration-300"
+>
+  View Rollout
+</a>
+
 
     </main>
   );
