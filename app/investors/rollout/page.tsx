@@ -26,10 +26,11 @@ export default function InvestorRollout() {
         <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
                         shadow-[0_10px_30px_rgba(0,0,0,0.35)] overflow-hidden">
           <img
-            src="/Lobbypic.png"
-            alt="Signature Vending in a boutique hotel lobby"
-            className="w-full h-auto"
-          />
+  src="/Lobbypic.png"
+  alt="Signature Vending in a boutique hotel lobby"
+  className="w-full h-[22rem] object-cover"
+/>
+
           <div className="p-8">
             <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-2">Hospitality</p>
             <p className="text-lg text-[#e6cfa3] leading-relaxed">
@@ -41,10 +42,11 @@ export default function InvestorRollout() {
         <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
                         shadow-[0_10px_30px_rgba(0,0,0,0.35)] overflow-hidden">
           <img
-            src="/SpaPic.png"
-            alt="Signature Vending in a premium leisure and spa environment"
-            className="w-full h-auto"
-          />
+  src="/SpaPic.png"
+  alt="Signature Vending in a premium leisure and spa environment"
+  className="w-full h-[22rem] object-cover"
+/>
+
           <div className="p-8">
             <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-2">Leisure & Wellness</p>
             <p className="text-lg text-[#e6cfa3] leading-relaxed">
