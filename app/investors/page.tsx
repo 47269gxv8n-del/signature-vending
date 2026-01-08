@@ -97,6 +97,20 @@ export default function Investors() {
           income-producing assets.
         </p>
       </section>
+      <div className="mt-10 text-center">
+  <a
+    href="/investors/vision"
+    className="inline-block px-10 py-4 border border-[#6b4a2d] text-sm uppercase tracking-[0.35em] text-[#d6b97a]
+               hover:bg-[#6b4a2d] hover:text-[#f5e6c8] transition-all duration-300"
+  >
+    View Vision & Rollout
+  </a>
+
+  <p className="mt-6 text-sm tracking-widest text-[#8f6b4a]">
+    Private link — not listed on the main site.
+  </p>
+</div>
+
 
       {/* CAPITAL RETURNS */}
       <section className="mb-24 max-w-4xl mx-auto">
