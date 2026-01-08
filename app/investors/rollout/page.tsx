@@ -61,6 +61,67 @@ export default function InvestorRollout() {
         <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-10 text-[#f5e6c8]">
           Phased Growth
         </h2>
+        {/* Timeline Strip */}
+<section className="mb-16 max-w-5xl mx-auto">
+  <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                  shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8 md:p-10">
+
+    <p className="text-sm uppercase tracking-[0.4em] text-[#d6b97a] mb-8 text-center">
+      Rollout Timeline
+    </p>
+
+    <div className="grid gap-6 md:grid-cols-4">
+      
+      {/* Step 1 */}
+      <div className="text-center">
+        <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-3">0–30 Days</p>
+        <p className="text-lg text-[#f5e6c8] tracking-wide mb-2">Foundation</p>
+        <p className="text-sm text-[#e6cfa3] leading-relaxed">
+          Secure first placements, deploy initial machines, and standardise operations.
+        </p>
+      </div>
+
+      {/* Step 2 */}
+      <div className="text-center">
+        <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-3">30–90 Days</p>
+        <p className="text-lg text-[#f5e6c8] tracking-wide mb-2">Replication</p>
+        <p className="text-sm text-[#e6cfa3] leading-relaxed">
+          Expand across comparable sites, refine product mix, and formalise service cadence.
+        </p>
+      </div>
+
+      {/* Step 3 */}
+      <div className="text-center">
+        <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-3">3–12 Months</p>
+        <p className="text-lg text-[#f5e6c8] tracking-wide mb-2">Acceleration</p>
+        <p className="text-sm text-[#e6cfa3] leading-relaxed">
+          Multi-site rollouts, supplier leverage, and growing machine density.
+        </p>
+      </div>
+
+      {/* Step 4 */}
+      <div className="text-center">
+        <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-3">12+ Months</p>
+        <p className="text-lg text-[#f5e6c8] tracking-wide mb-2">Portfolio Phase</p>
+        <p className="text-sm text-[#e6cfa3] leading-relaxed">
+          Optimised routes, predictable cash flow, and portfolio-level management.
+        </p>
+      </div>
+    </div>
+
+    {/* Line + markers */}
+    <div className="hidden md:block mt-10">
+      <div className="relative h-px bg-[#6b4a2d]/60 mx-6">
+        <span className="absolute -top-[6px] left-[0%] h-3 w-3 rounded-full bg-[#d6b97a]"></span>
+        <span className="absolute -top-[6px] left-[33%] h-3 w-3 rounded-full bg-[#d6b97a]"></span>
+        <span className="absolute -top-[6px] left-[66%] h-3 w-3 rounded-full bg-[#d6b97a]"></span>
+        <span className="absolute -top-[6px] left-[100%] h-3 w-3 rounded-full bg-[#d6b97a] -translate-x-full"></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
         <div className="space-y-10">
           <div className="rounded-2xl p-10 border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
