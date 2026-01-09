@@ -1,7 +1,6 @@
 export default function Investors() {
   return (
     <main className="px-8 py-24 max-w-6xl mx-auto">
-
       {/* PRIVATE HEADER */}
       <section className="text-center mb-24">
         <p className="text-sm uppercase tracking-[0.4em] text-[#d6b97a] mb-6">
@@ -52,8 +51,8 @@ export default function Investors() {
         </p>
 
         <p className="text-lg text-[#e6cfa3] leading-relaxed">
-          No tills. No staffing. No friction. The result is a discreet retail experience that enhances
-          environments rather than detracting from them.
+          No tills. No staffing. No friction — a discreet retail experience that enhances the environment
+          rather than detracting from it.
         </p>
       </section>
 
@@ -63,23 +62,46 @@ export default function Investors() {
           The Machine Model
         </h2>
 
-        <ul className="space-y-4 text-lg text-[#e6cfa3] leading-relaxed">
+        <ul className="space-y-4 text-lg text-[#e6cfa3] leading-relaxed mb-10">
           <li>• Each unit operates as a standalone, income-producing asset.</li>
           <li>• Machines are purchased only once a confirmed placement is secured.</li>
           <li>• Signature Vending manages installation, stock, monitoring, and servicing.</li>
         </ul>
 
-        <div className="mt-8 space-y-2 text-lg text-[#e6cfa3]">
-          <p>Average machine cost: <span className="text-[#f5e6c8]">~£4,000 (inc VAT)</span></p>
-          <p>Conservative target: <span className="text-[#f5e6c8]">~£300 net profit per machine / month</span></p>
-          <p>Upside performance: <span className="text-[#f5e6c8]">~£500 net profit per machine / month</span></p>
-        </div>
+        <div
+  className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+             shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8 md:p-10"
+>
+  <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-6">
+    Unit Snapshot
+  </p>
 
-        <p className="mt-8 text-lg text-[#e6cfa3] leading-relaxed">
-          This positions each machine to recover capital within approximately 8–14 months, before
-          generating ongoing monthly cash flow.
-        </p>
-      </section>
+  <div className="grid gap-6 md:grid-cols-3">
+    <div className="rounded-2xl bg-[#2a140c]/45 p-6">
+      <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-2">Machine Cost</p>
+      <p className="text-2xl text-[#f5e6c8] font-light">£4,000</p>
+      <p className="text-sm text-[#e6cfa3] mt-2">Incl. VAT (typical).</p>
+    </div>
+
+    <div className="rounded-2xl bg-[#2a140c]/45 p-6">
+      <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-2">Conservative Net</p>
+      <p className="text-2xl text-[#f5e6c8] font-light">£300 / month</p>
+      <p className="text-sm text-[#e6cfa3] mt-2">Per machine target.</p>
+    </div>
+
+    <div className="rounded-2xl bg-[#2a140c]/45 p-6">
+      <p className="text-xs uppercase tracking-[0.35em] text-[#8f6b4a] mb-2">Upside Net</p>
+      <p className="text-2xl text-[#f5e6c8] font-light">£500 / month</p>
+      <p className="text-sm text-[#e6cfa3] mt-2">Strong sites.</p>
+    </div>
+  </div>
+
+  <p className="mt-8 text-lg text-[#e6cfa3] leading-relaxed">
+    This positions each machine to recover capital within approximately{" "}
+    <span className="text-[#f5e6c8]">8–14 months</span>, before generating ongoing monthly cash flow.
+  </p>
+</div>
+</section>
 
       {/* PORTFOLIO SCALE */}
       <section className="mb-24 max-w-4xl mx-auto">
@@ -88,8 +110,8 @@ export default function Investors() {
         </h2>
 
         <p className="text-lg text-[#e6cfa3] leading-relaxed mb-6">
-          The business scales through the deployment of repeatable machine placements across hospitality,
-          workplace, and multi-site environments.
+          The business scales through repeatable placements across hospitality, workplace, and multi-site
+          environments.
         </p>
 
         <p className="text-lg text-[#e6cfa3] leading-relaxed">
@@ -97,11 +119,9 @@ export default function Investors() {
           income-producing assets.
         </p>
       </section>
-    
- 
 
       {/* CAPITAL RETURNS */}
-      <section className="mb-24 max-w-4xl mx-auto">
+      <section className="mb-16 max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-8 text-[#f5e6c8]">
           Capital & Returns
         </h2>
@@ -112,24 +132,25 @@ export default function Investors() {
         </p>
 
         <p className="text-lg text-[#e6cfa3] leading-relaxed">
-          A long-term model of partial reinvestment alongside dividend distributions enables both
-          continued growth and recurring income.
+          A long-term model of partial reinvestment alongside dividend distributions enables both continued
+          growth and recurring income.
         </p>
       </section>
-        <div className="mt-10 text-center">
-       <a
-    href="/investors/vision"
-    className="inline-block px-10 py-4 border border-[#6b4a2d] text-sm uppercase tracking-[0.35em] text-[#d6b97a]
-               hover:bg-[#6b4a2d] hover:text-[#f5e6c8] transition-all duration-300"
-  >
-    View Vision & Rollout
-  </a>
 
-  <p className="mt-6 text-sm tracking-widest text-[#8f6b4a]">
-    Private link — not listed on the main site.
-  </p>
-</div>
+      {/* CTA */}
+      <div className="mt-10 text-center">
+        <a
+          href="/investors/rollout"
+          className="inline-block px-10 py-4 border border-[#6b4a2d] text-sm uppercase tracking-[0.35em] text-[#d6b97a]
+                     hover:bg-[#6b4a2d] hover:text-[#f5e6c8] transition-all duration-300"
+        >
+          View Rollout
+        </a>
 
+        <p className="mt-6 text-sm tracking-widest text-[#8f6b4a]">
+          Private link — not listed on the main site.
+        </p>
+      </div>
 
       {/* PRIVATE CONTACT */}
       <section className="text-center mt-32 pt-16 border-t border-[#6b4a2d]/40">
@@ -150,7 +171,6 @@ export default function Investors() {
           partners@signature-vending.com
         </a>
       </section>
-
     </main>
   );
 }

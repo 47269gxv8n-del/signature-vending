@@ -1,119 +1,173 @@
 export default function InvestorVision() {
   return (
     <main className="px-8 py-24 max-w-6xl mx-auto">
-
       {/* Header */}
       <section className="text-center mb-20">
         <p className="text-sm uppercase tracking-[0.4em] text-[#d6b97a] mb-6">
-          Private — Vision & Rollout
+          Private — Vision & Strategy
         </p>
 
         <h1 className="text-4xl md:text-5xl font-light tracking-wide mb-8 text-[#f5e6c8]">
-          Scaling Signature Vending
+          The Long-Term Vision
         </h1>
 
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-[#e6cfa3] leading-relaxed">
-          Signature Vending scales through repeatable placements in premium environments.
-          This page outlines the market, placement strategy, and the rollout path to 100 machines.
+          Signature Vending is not building “vending machines.” It is building a premium convenience
+          layer for hospitality and wellness environments — embedded retail designed to live inside
+          places people already trust.
         </p>
 
         <div className="h-px w-24 bg-[#6b4a2d] mx-auto mt-12"></div>
       </section>
 
-      {/* Market */}
-      <section className="mb-20 max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-8 text-[#f5e6c8]">
-          The Market
-        </h2>
+      {/* Vision statement */}
+      <section className="mb-24 max-w-5xl mx-auto">
+        <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                        shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-10 md:p-12 text-center">
+          <p className="text-sm uppercase tracking-[0.4em] text-[#d6b97a] mb-6">
+            The North Star
+          </p>
 
-        <p className="text-lg text-[#e6cfa3] leading-relaxed mb-6">
-          The target market is not “vending” in the traditional sense. It is convenience retail
-          positioned inside hospitality and workplace environments where brand and experience matter.
-        </p>
-
-        <p className="text-lg text-[#e6cfa3] leading-relaxed">
-          Hotels, offices, gyms, serviced apartments, and premium residential developments all share
-          the same demand: high-quality essentials available immediately, without staffing overhead.
-        </p>
+          <p className="text-xl md:text-2xl text-[#f5e6c8] leading-relaxed font-light">
+            A design-led unattended retail network that premium venues are proud to host — curated
+            essentials, frictionless experience, and predictable operations.
+          </p>
+        </div>
       </section>
 
-      {/* Placements */}
-      <section className="mb-20 max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-8 text-[#f5e6c8]">
-          Placement Strategy
+      {/* Positioning */}
+      <section className="mb-24 max-w-5xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-10 text-[#f5e6c8]">
+          Strategic Positioning
         </h2>
 
-        <ul className="space-y-4 text-lg text-[#e6cfa3] leading-relaxed">
-          <li>• Focus on premium locations where traditional vending is rejected on aesthetics.</li>
-          <li>• Curate product mix to match environment: essentials, wellness, and premium snacks.</li>
-          <li>• Use performance data to refine stock, pricing, and replenishment cadence.</li>
-          <li>• Convert single wins into multi-site rollouts across portfolios.</li>
-        </ul>
-      </section>
-
-      {/* Rollout */}
-      <section className="mb-20 max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-8 text-[#f5e6c8]">
-          Rollout to 100 Machines
-        </h2>
-
-        <div className="space-y-10">
-          <div className="rounded-2xl p-10 border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
-                          shadow-[0_10px_30px_rgba(0,0,0,0.35)]">
-            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-4">
-              Phase 1 — Proof
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8">
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-3">
+              Category creation
             </p>
             <p className="text-lg text-[#e6cfa3] leading-relaxed">
-              Establish early placements, validate performance, and standardise operations.
-              The objective is repeatability: one machine that works becomes the template.
+              Premium convenience retail — not traditional vending.
             </p>
           </div>
 
-          <div className="rounded-2xl p-10 border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
-                          shadow-[0_10px_30px_rgba(0,0,0,0.35)]">
-            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-4">
-              Phase 2 — Replication
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8">
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-3">
+              Embedded distribution
             </p>
             <p className="text-lg text-[#e6cfa3] leading-relaxed">
-              Expand through operators with multiple sites. Repeat placements across hotel groups,
-              office portfolios, and premium developments. Scale becomes distribution, not invention.
+              Deployed inside hospitality, wellness, and premium workplace environments.
             </p>
           </div>
 
-          <div className="rounded-2xl p-10 border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
-                          shadow-[0_10px_30px_rgba(0,0,0,0.35)]">
-            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-4">
-              Phase 3 — Portfolio
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8">
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-3">
+              Brand-led standard
             </p>
             <p className="text-lg text-[#e6cfa3] leading-relaxed">
-              At scale, the fleet becomes a portfolio business: tighter replenishment routes,
-              improved supplier terms, and predictable monthly cash flow.
+              A consistent, design-first presence that venues trust.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Back link */}
-      <section className="text-center mt-24 pt-12 border-t border-[#6b4a2d]/40">
-        <a
-          href="/investors"
-          className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] hover:text-[#f5e6c8] transition-colors duration-300"
-        >
-          ← Back to Investor Overview
-        </a>
+      {/* Why now */}
+      <section className="mb-24 max-w-5xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-10 text-[#f5e6c8]">
+          Why This Works Now
+        </h2>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-10">
+            <p className="text-lg text-[#e6cfa3] leading-relaxed">
+              Cashless behaviour and self-service retail are now mainstream. Guests expect immediate
+              access to quality products without waiting, staffing, or friction.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-10">
+            <p className="text-lg text-[#e6cfa3] leading-relaxed">
+              Venues want convenience that enhances experience and generates revenue without adding
+              operational complexity.
+            </p>
+          </div>
+        </div>
       </section>
-   <div className="mt-16 flex justify-center">
-  <a
-    href="/investors/rollout"
-    className="inline-block px-10 py-4 border border-[#6b4a2d] text-sm uppercase tracking-[0.35em] text-[#d6b97a]
-               hover:bg-[#6b4a2d] hover:text-[#f5e6c8] transition-all duration-300"
-  >
-    View Rollout
-  </a>
-</div>
 
+      {/* Moat */}
+      <section className="mb-24 max-w-5xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-light tracking-wide mb-10 text-[#f5e6c8]">
+          Strategic Advantage
+        </h2>
 
+        <div className="grid gap-6 md:grid-cols-3">
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8">
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-3">
+              Placement access
+            </p>
+            <p className="text-lg text-[#e6cfa3] leading-relaxed">
+              A growing footprint inside premium venues where generic vending cannot compete.
+            </p>
+          </div>
 
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8">
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-3">
+              Curated economics
+            </p>
+            <p className="text-lg text-[#e6cfa3] leading-relaxed">
+              Higher basket value and pricing power through premium product curation.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                          shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8">
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] mb-3">
+              Operating playbook
+            </p>
+            <p className="text-lg text-[#e6cfa3] leading-relaxed">
+              A standardised model that compounds efficiency as the portfolio grows.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bridge to financials */}
+      <section className="mb-20 max-w-5xl mx-auto">
+        <div className="rounded-2xl border border-[#6b4a2d]/70 bg-gradient-to-b from-[#3a1f14] to-[#2a140c]
+                        shadow-[0_10px_30px_rgba(0,0,0,0.35)] p-8 md:p-10 text-center">
+          <p className="text-sm uppercase tracking-[0.4em] text-[#d6b97a] mb-3">
+            Next
+          </p>
+          <p className="text-lg text-[#e6cfa3] leading-relaxed">
+            The Financials section details unit economics, portfolio projections, and the dividend framework.
+          </p>
+        </div>
+      </section>
+
+      {/* Navigation */}
+      <section className="text-center mt-24 pt-12 border-t border-[#6b4a2d]/40">
+        <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
+          <a
+            href="/investors/rollout"
+            className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] hover:text-[#f5e6c8] transition-colors duration-300"
+          >
+            ← Rollout
+          </a>
+          <a
+            href="/investors/financials"
+            className="text-sm uppercase tracking-[0.35em] text-[#d6b97a] hover:text-[#f5e6c8] transition-colors duration-300"
+          >
+            Financials →
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
